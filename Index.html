@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>UNIVESO"S BOOK</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheer" href="reset.css">
+   <link rel="stylesheet" href="header.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+</head>
+
+  <header class="cabecalho">
+
+   <div calss="container">
+      <!--ADICINAR A TAG AQUI-->
+      <input type="checkbox" id="menu" class="container_botao">
+
+      <!--ADICIONAR TAG LABEL AQUI-->
+      <label for="menu">
+         <span class="cabecalho__menu-hamburguer"></span>
+      </label>
+
+      <!--ADICIONAR AS TAGS DE LISTA AQUI-->
+      <ul class="lista-menu">
+         <li class="lista-menu__titulo">CATEGORIAS</li>
+         <li calss="lista-menu__item"> <a href="#" class="lista-menu__link"> Programação </a> </li>
+         <li calss="lista-menu__item"> <a href="#" class="lista-menu__link"> Romance </a> </li>
+         <li calss="lista-menu__item"> <a href="#" class="lista-menu__link"> Ficção Científica </a> </li>
+         <li calss="lista-menu__item"> <a href="#" class="lista-menu__link"> Diversos </a> </li>
+      </ul>
+      <a href="#"> <img src="IMG/Logo.svg" alt="logotipo do aplicativo"> </a>
+
+   </div>
+
+    <div class="container">
+      <a href="#"> <img src="IMG/Favoritos.svg" alt="faviritos"> </a>
+      <a href="#"> <img src="IMG/Compras.svg" alt="sacola de compras"> </a>
+      <a href="#"> <img src="IMG/Usu�rio.svg" alt="meu perfil"> </a>
+
+   </div>
+</header>
+
+<body>
+   <section class="banner">
+      <h1 class="banner__titulo"> Universo's Book</h1>
+      <p class="banner__texto"> Aqui você encontra o livro que você precisa!</p>
+      <h2 class="banner__titulo"> Já sabe por onde começar?</h2>
+      <p class="banner__texto"> Encontreo livro que precisa para seu desenvolvimento!</p>
+      <input type="search" class="banner__pesquisa" placeholder="Qual a sua proxima leitura">
+   </section>
+
+   <section class="carrossel">
+      <div class="swiper">
+         <h2 class="carrossel__titulo">NOVOS LANÇAMENTOS</h2>
+
+         <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="IMG/ApacheKafka.png" alt="livro de programação"></div>
+            <div class="swiper-slide"> <img src="IMG/Lideran�a.png" alt="livro que fala sobre liderança em empresas"></div>
+            <div class="swiper-slide"> <img src="IMG/Javascript.png" alt="livro de programação de Javascript"></div>
+            <div class="swiper-slide"> <img src="IMG/Guia Front-end.png" alt="guia de programação em front-end"></div>
+            <div class="swiper-slide"> <img src="IMG/Portugol.png" alt="livro sobre programação em português"></div>
+            <div class="swiper-slide"> <img src="IMG/CarreiraSemFronteira.png" alt="livro sobre como alavancar a carreira no exterior"></div>
+         </div>
+      </div>
+
+     <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+
+      <div class="card">
+         <div class="card__drescricao">
+            <div class = "drescricao">
+               <h3 class="desgricao__titulo">TALVEZ VOCE SE INTERESSE POR...</h3>
+               <p class = "descricao__subtitulo">ANGULAR 11 E FIREBASE</p>
+               <p class = "descricao__subtitulo"> Constituindo uma aplicação integrada com a plataforma do Google</p>
+               <img src = "IMG/Angular-1.png" alt = "livro que aborda assuntos de programação" class = "descricao__imagem">
+            </div>
+         </div>
+
+         <div class = "card__botoes">
+            <ul class = "botoes">
+               <li class = "botoes__item">Favoritos</li>
+               <img src = "IMG/Favoritos.svg" alt = "icone de favoritos">
+               
+               <ul class = "botoes__item">
+                  <img src="IMG/Compras.svg" alt="ícone compras"> 
+               </ul> 
+               <a herf = "#" class = "botoes__ancora">SAIBA MAIS</a>
+            </ul>   
+         </div>
+      </div>   
+   </section>
+
+<section class = "carrossel">
+      <h2 class = "carrossel__titulo">MAIS VENDIDOS</h2>
+   </section>
+
+   <div class = "swiper">
+      <div class = "swiper-paginarion"> </div>
+      <div claas = "swiper-wrapper"> 
+       <div class = "swiper-slide"> <img src = "IMG/Angular-2.png" alt="livro de programação vol 2"> </div>
+       <div class = "swiper-slide"> <img src = "IMG/Caelum.png" alt="livro sobre tecnologia"> </div>
+       <div class = "swiper-slide"> <img src = "IMG/Estrelinhas.png" alt="livro infantil sobre astronomia"> </div>
+       <div class="swiper-slide"> <img src = "IMG/MusicDot.png" alt = "livro sobre música e cifras"> </div>
+       <div class="swiper-slide"> <img src = "IMG/Rectangle 30.png" alt = "livro sobre geometria"> </div>
+       <div class="swiper-slide"> <img src = "IMG/HipstersTech.png" alt="livro sobre tecnologias atuais"> </div>
+      </div>
+   </div>
+
+   <div class = "swiper-button-prev"> </div>
+   <div class = "swiper-button-next"> </div>
+
+   <section class = "topicos">
+      <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+      <ul class="topicos__lista">
+         <li calss="topicos__item"> <a  = "#" class = "topicos__ancora"> Física </a> </li>
+         <li calss="topicos__item"><a href = "#" class = "topicos__ancora"> Astronomia </a> </li>
+         <li calss="topicos__item"><a href = "#" class = "topicos__ancora"> Calculo </a> </li>
+         <li calss="topicos__item"><a href = "#" class = "topicos__ancora"> Linguagem de Programação </a> </li>
+         <li calss="topicos__item"><a href = "#" class = "topicos__ancora"> Tecnologia </a> </li>
+         <li calss="topicos__item"><a href = "#" class = "topicos__ancora"> Telescópios </a> </li>
+      </ul>
+   </section>
+
+  <section class = "contato">
+
+         <h2 class = "contato__titulo"> Fique por dentro das novidades da loja! </h2>
+         <p class = "contato__texto"> Atuaização de novos livros, ebook's e promoções, vocẽ enconta aqui! </p>
+         <input type = "email" placeholder = "Cadastre aqui o seu email">  
+
+       </section>
+
+       <footer class = "rodape">
+           <h2 class = "rodape__titulo">obrigada por acessar nosso site! em breve novidades </h2>
+
+       </footer>
+
+       <script src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+       
+       <script>
+           const swiper = new Swiper(".swiper", {
+               spaceBetween: 10,
+               slidesPerView: 3,
+               pagination: {
+                   el: ".swiper-pagination",
+                   type: "bullets",
+           },
+           } );
+       </script>
+
+</body>
+
+</html>
