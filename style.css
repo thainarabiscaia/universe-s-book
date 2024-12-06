@@ -1,0 +1,19 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
+
+:root {
+   --preto: #000000;
+   --fonte-principal: 'Poppin', 'sans serif';
+   --branco: #FFFFFF;
+   --azul-degrade: linear-gradient(97.54deg, #002FS2 35.49%, #326589 165.37%);
+   --azul: #002F52;
+   --laranja: #EB9B00; 
+}
+
+body {
+    background-color: var(--branco);
+    color: var(--preto);
+    font-size:var(--fonte-principal) ;
+}
